@@ -2,7 +2,7 @@
 set -eu
 
 AGAVE_TAG="v3.1.10"
-YELLOWSTONE_TAG="v12.1.0+triton-ext.solana.3.1.10"
+YELLOWSTONE_TAG="v12.1.0+solana.3.1.10"
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 VENDOR_DIR="$(dirname "$SCRIPT_DIR")/vendor"
