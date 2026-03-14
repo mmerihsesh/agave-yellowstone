@@ -1,6 +1,0 @@
-[submodule "vendor/agave"]
-	path = vendor/agave
-	url = https://github.com/anza-xyz/agave.git
-[submodule "vendor/yellowstone-grpc"]
-	path = vendor/yellowstone-grpc
-	url = https://github.com/rpcpool/yellowstone-grpc.git

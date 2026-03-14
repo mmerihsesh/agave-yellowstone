@@ -1,0 +1,7 @@
+.git
+.cursor
+.gitmodules
+.gitignore
+*.md
+dockerfile
+.dockerignore
