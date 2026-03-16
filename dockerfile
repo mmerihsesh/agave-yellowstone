@@ -50,9 +50,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates \
     libssl3 \
     libudev1 \
-    curl \
-    bash \
-    procps \
     && rm -rf /var/lib/apt/lists/* \
     && groupadd --system solana \
     && useradd --system --gid solana --create-home solana \
