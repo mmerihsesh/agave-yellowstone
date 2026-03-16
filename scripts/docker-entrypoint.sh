@@ -1,7 +1,9 @@
 #!/bin/sh
 set -eu
 
-exec solana-test-validator \
+mkdir -p /var/lib/solana
+
+exec /opt/agave/bin/solana-test-validator \
     --ledger /var/lib/solana \
     --geyser-plugin-config /etc/yellowstone/config.json \
     "$@"

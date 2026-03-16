@@ -6,6 +6,8 @@ FROM rust:1.86.0-bookworm AS build-base
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    pkg-config \
     libssl-dev \
     libudev-dev \
     zlib1g-dev \
