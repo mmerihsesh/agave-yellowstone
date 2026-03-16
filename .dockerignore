@@ -12,7 +12,6 @@ solana-dump
 docs
 README.md
 
-vendor/**/.git
 vendor/**/.github
 vendor/**/tests
 vendor/**/test-ledger
