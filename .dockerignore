@@ -13,6 +13,3 @@ docs
 README.md
 
 vendor/**/.github
-vendor/**/tests
-vendor/**/test-ledger
-vendor/**/node_modules
